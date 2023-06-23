@@ -1,4 +1,4 @@
-FROM quay.io/soketi/soketi:1.5.0-16-debian
+FROM quay.io/soketi/soketi:1.4-16-debian
 
 ARG SOKETI_DEFAULT_APP_ID
 ENV SOKETI_DEFAULT_APP_ID=$SOKETI_DEFAULT_APP_ID
